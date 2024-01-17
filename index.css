@@ -307,3 +307,21 @@ h1 {
     }
 
 }
+
+@media only screen and (max-width: 480px) {
+    .tabs p {
+        padding: 4px;
+        font-size: 13px;
+    }
+
+    .tabs .active::before {
+        width: 150%;
+        left: -25%;
+        bottom: -46px;
+    }
+
+    .toggle-wrapper {
+        margin-top: 16px;
+    }
+
+}
